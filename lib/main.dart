@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future _writeToCloudFirestore() async {
-    FirebaseFirestore.instance
+    await FirebaseFirestore.instance
         .collection("translations")
         .doc("pLwlji6aSwJ7Xudj9rGD") // <-- replace with your doc id
         .update({"input": _controller.text});
