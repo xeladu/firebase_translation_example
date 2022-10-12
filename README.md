@@ -1,1 +1,3 @@
-# firebase_translation_example
+# Firebase Translation Example
+
+This project is part of the [Flutter Firebase Compendium](https://xeladu.gumroad.com/l/ffc).
